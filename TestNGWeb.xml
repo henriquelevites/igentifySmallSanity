@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Web Suite" parallel="false">
+    <test name="Web Tests">
+        <parameter name="PlatformName" value="web" />
+<!--   <packages>
+            <package name="sanity"/>
+       </packages> -->
+        <classes>
+            <class name="sanity.IgentifyWeb">
+                <!-- <methods>
+                    <include name="test01_verifyHomeSession1" />
+                </methods>-->
+            </class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

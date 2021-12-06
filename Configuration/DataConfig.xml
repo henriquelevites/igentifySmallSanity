@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+
+    <!-- Timeout -->
+    <Timeout>10</Timeout>
+
+    <!-- General -->
+<!--    <PlatformName>web</PlatformName> -->   <!-- web, mobile, api, electron, desktop -->
+<!--    (appears in TestNG.xmls files)  -->
+
+    <!-- Web -->
+    <BrowserName>chrome</BrowserName>
+    <urlWeb>https://www.igentify.com/</urlWeb>
+    <ImageRepository>C:\\Users\\Sharique\\IdeaProjects\\Igentify_WebTestAutomation\\ImageRepository\\</ImageRepository>
+
+    <!-- Data Driven Testing -->
+    <CsvRows>5</CsvRows>
+    <CsvColumns>6</CsvColumns>
+    <DDTFile>./DDTFiles/BookDemo.csv</DDTFile>
+
+    <!-- Mobile -->
+    <UDID>49eb27cc</UDID>
+    <AppPackage>com.example.android.apis</AppPackage>
+    <AppActivity>.ApiDemos</AppActivity>
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+    <FirstPageNumberOfMenuItems>11</FirstPageNumberOfMenuItems>
+
+    <!-- API -->
+    <urlAPI>http://localhost:9000</urlAPI>
+
+    <!-- Electron -->
+    <ElectronDriverPath>C:\\Automation\\FinalProject\\Drivers\\electrondriver.exe</ElectronDriverPath>
+    <ElectronAppPath>C:\\Automation\\Electron_API_Demos-win32-ia32\\ElectronAPIDemos.exe</ElectronAppPath>
+
+    <!-- Desktop -->
+    <CalculatorApp>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</CalculatorApp>
+    <AppiumServerDesktop>http://127.0.0.1:4723</AppiumServerDesktop>
+
+    <!-- Database -->
+    <DBURL>jdbc:mysql://remotemysql.com:3306/tJvwWHsKny</DBURL>
+    <DBUserName>tJvwWHsKny</DBUserName>
+    <DBPassword>i3DaZDGLWq</DBPassword>
+
+</Environment>
